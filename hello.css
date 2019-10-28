@@ -1,8 +1,22 @@
 body{
-    background-color: tomato;
+    background-color: black;
+    margin-left: 200px;
+    margin-right: 200px;
 }
-ul{
-    background-color: turquoise;
+
+h1,h2,ul,button{
+    color: Red; 
+       font-family: cursive;
+}
+
+div{
+    background-image:url("https://raw.githubusercontent.com/jasoncostello/code-slayer/master/codeslayer_2560x1440.png") ;
+    padding: 40px;
+    margin-top: 100px;
+    border: 2px solid whitesmoke;
+    border-radius: 7px;
+    height:500px;
+    padding-left: 50px;
 }
 button{
     background-color: thistle;
@@ -10,4 +24,16 @@ button{
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+    margin-left: 300px;
+    border-radius: 6px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: cornflowerblue;
+color: cornsilk;
+border: 1px solid black;
+
+}
+ul{
+    list-style-type: circle;
 }
